@@ -126,7 +126,7 @@ main{
   display: flex;
   gap: 20px;
   justify-content: center;
-  align-items: stretch; /* IMPORTANT: ensures same height */
+  align-items: stretch;
 }
 
 .left-column {
@@ -232,6 +232,7 @@ input{
     margin-left: -5px;
 }
 
+/* footer css */
 footer{
     max-width: 1120px;
     margin: 50px auto;
@@ -252,8 +253,18 @@ footer{
     color: #6B7280;
 }
 
+
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
+    /* COMMON */
+    .heading, .section1-head, .section2-head, .latest-head{
+        font-size: 1.5rem;
+    }
+    .subtitle, .section1-content, .lily, .price, .list-content, .latest-content, .footer-content{
+        font-size: 1rem;
+    }
+
+    /* navbar & banner */
     nav{
         flex-direction: column;
     }
@@ -272,16 +283,11 @@ footer{
     .banner{
         flex-direction: column-reverse;
     }
-    .heading, .section1-head, .section2-head, .latest-head{
-        font-size: 1.5rem;
-    }
-    .subtitle, .section1-content, .lily, .price, .list-content, .latest-content, .footer-content{
-        font-size: 1rem;
-    }
     .banner-img{
         width: 100%;
     }
 
+    /* Section1 */
     .section1{
         margin-bottom: 50px;
     }
@@ -289,9 +295,6 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
-    }
-    .flower{
-        /* margin-left: 0px;  eitar r dorkar nei*/
     }
     .flower, .flower-img{
         width: 200px;
@@ -306,7 +309,7 @@ footer{
         margin-top: 0;
     }
 
-
+    /* Section2 */
     .section2{
         flex-direction: column;
         margin-top: 20px;
@@ -322,16 +325,17 @@ footer{
         visibility: hidden;
     }
 
-
+    /* Latest Section */
     .latest-section{
         margin-bottom: 50px;
     }
+
+    /* Section3 */
     .section3{
         margin-top: 0;
     }
 
-/* Challenge part start */
-
+/* Challenge part starts */
   .image-section {
     display: flex;
     flex-direction: column;
@@ -350,9 +354,9 @@ footer{
     width: 360px;
     height: 172px;
   }
+/* Challenge part ends */    
 
-/* Challenge part end */    
-
+    /* Outside Section */
     .outside{
         height: 275px;
     }
@@ -367,6 +371,8 @@ footer{
     padding: 8px 15px;
     margin-bottom: 0px;
    }
+
+   /* Footer */
    footer{
     flex-direction: column;
    }
