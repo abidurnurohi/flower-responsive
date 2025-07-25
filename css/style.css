@@ -1,0 +1,432 @@
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.color1{
+    color: #000000;
+}
+.color2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.color3{
+    color: #E95A08;
+}
+.color4{
+    color: #FFFFFF;
+}
+.display{
+    display: flex;
+}
+/* COMMON CSS FOR SECTION1 & LATEST-SECTION */
+.common-section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.common-head{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.common-content{
+    font-size: 1.4rem;
+}
+.unlist{
+    list-style: none;
+    gap: 48px; /*recheck*/
+}
+.nav-anchor{
+    text-decoration: none;
+}
+
+/* navbar & banner css */
+nav, .banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+.banner{
+    align-items: center;
+    margin-top: 100px;
+}
+.heading{
+    font-size: 4rem;
+}
+
+/* main (sections) css */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* section1 */
+.flower-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+
+}
+.flower{
+    margin-top: 30px;
+    width: 270px;
+    text-align: center;
+}
+.lily{
+    font-weight: 500;
+}
+.price{
+    font-weight: bolder;
+}
+.flower-btn{
+    padding: 18px 88px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #E95A08;
+    border: none;
+    margin-left: 2px;
+}
+/* section 2 */
+.section2{
+    margin-top: 200px;
+    gap: 60px;
+    align-items: center;
+}
+.achievement{
+    position: absolute;
+    left: 410px;
+    top: 2000px;
+}
+.lover{
+    margin-left: 5px;
+}
+.trusted{
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.4));
+    height: 35%;
+    width: 35%;
+}
+.list-content{
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+}
+
+/* chatgpt section3 start */
+
+.image-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch; /* IMPORTANT: ensures same height */
+}
+
+/* Left column */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Right column should match left column height */
+.right-column {
+  display: flex;
+}
+
+/* Common image container */
+.section3{
+    margin: 120px 0;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Zabo should match total height of left column */
+.zabo-container {
+  height: calc(172px * 2 + 20px); /* 2 images + gap */
+  width: 750px;
+}
+
+/* Size for left column images */
+.left-column .image-container {
+  width: 360px;
+  height: 172px;
+}
+
+/* Text overlay center */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text-overlay a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* chatgpt section3 end */
+
+
+
+
+/* mine section3 start */
+
+/* .image-section{
+    margin: 100px 0;
+}
+.image-section img{
+    border-radius: 22px;
+}
+.image1{
+    flex-direction: column;
+}
+.ana{
+    margin-top: 20px;
+}
+.zabo{
+    width: 750px;
+    height: 420px;
+    margin-left: 25px;
+} */
+
+/* mine section3 end */
+
+
+
+
+/* Outside Section CSS */
+.outside{
+    background-image: url('../images/news-letter-bg.png');
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.join{
+    font-size: 3rem;
+    font-weight: bold;
+}
+input{
+    width: 550px;
+    outline: none;
+}
+.join{
+    margin-bottom: 15px;
+}
+.subscribe{
+    margin-top: 0;
+}
+.subscribe input[type="email"]{
+    padding: 8px 15px;
+    margin-bottom: 50px;
+}
+.subscribe-btn{
+    padding: 8px 15px;
+    background-color: #E95A08;
+    border: none;
+    margin-left: -5px;
+}
+
+footer{
+    max-width: 1120px;
+    margin: 50px auto;
+    gap: 100px;
+}
+.part2{
+    display: grid;
+}
+.part3{
+    display: grid;
+}
+.social{
+    margin-left: 10px;
+}
+.footer-tags{
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: #6B7280;
+}
+
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100px;
+        margin-left: -290px;
+    }
+    .unlist{
+        visibility: hidden;
+    }
+    .unlist span{
+        visibility: visible;
+        margin-top: -50px;
+        margin-left: -50px;
+    } 
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .heading, .section1-head, .section2-head, .latest-head{
+        font-size: 1.5rem;
+    }
+    .subtitle, .section1-content, .lily, .price, .list-content, .latest-content, .footer-content{
+        font-size: 1rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .section1{
+        margin-bottom: 50px;
+    }
+    .flower-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .flower{
+        /* margin-left: 0px;  eitar r dorkar nei*/
+    }
+    .flower, .flower-img{
+        width: 200px;
+    }
+    .flower-btn{
+        padding: 18px 52px;
+    }
+    .lily{
+        margin-bottom: 0;
+    }
+    .price{
+        margin-top: 0;
+    }
+
+
+    .section2{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .section2-about{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    .store-img{
+        width: 400px;
+    }
+    .achievement, .trusted{
+        visibility: hidden;
+    }
+
+
+    .latest-section{
+        margin-bottom: 50px;
+    }
+    .section3{
+        margin-top: 0;
+    }
+
+/* chatgpt section3 start */
+
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column, .right-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column .image-container,
+  .right-column .image-container {
+    width: 360px;
+    height: 172px;
+  }
+
+/* chatgpt section3 end */    
+
+/* mine section3 start */
+
+
+    /* .image-section{
+        display: grid;
+    }
+    .image1{
+        display: flex;
+        align-items: center;      
+    }
+    .image2{
+        display: flex;
+        justify-content: center;  
+    }
+    .bloom, .ana{
+        width: 360px;
+        height: 172px;
+    }
+    .zabo{
+        width: 360px;
+        height: 172px;
+        margin-top: 20px;
+        margin-right: 25px;
+    } */
+
+    /* mine section3 end */
+
+    .outside{
+        height: 275px;
+    }
+    .join{
+        font-size: 1.5rem;
+    }
+    .subscribe{
+        display: flex;
+        width: 300px;
+    }
+    .subscribe input[type="email"]{
+    padding: 8px 15px;
+    margin-bottom: 0px;
+   }
+   footer{
+    flex-direction: column;
+   }
+   .part2, .part3, .part4{
+    margin-top: -100px;
+   }
+}
