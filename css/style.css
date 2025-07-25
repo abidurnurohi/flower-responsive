@@ -41,7 +41,7 @@
 }
 .unlist{
     list-style: none;
-    gap: 48px; /*recheck*/
+    gap: 48px;
 }
 .nav-anchor{
     text-decoration: none;
@@ -95,6 +95,7 @@ main{
     border: none;
     margin-left: 2px;
 }
+
 /* section 2 */
 .section2{
     margin-top: 200px;
@@ -119,7 +120,7 @@ main{
     margin-bottom: 20px;
 }
 
-/* chatgpt section3 start */
+/* Challenge part start */
 
 .image-section {
   display: flex;
@@ -128,19 +129,16 @@ main{
   align-items: stretch; /* IMPORTANT: ensures same height */
 }
 
-/* Left column */
 .left-column {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Right column should match left column height */
 .right-column {
   display: flex;
 }
 
-/* Common image container */
 .section3{
     margin: 120px 0;
 }
@@ -195,34 +193,7 @@ main{
   font-weight: bold;
 }
 
-/* chatgpt section3 end */
-
-
-
-
-/* mine section3 start */
-
-/* .image-section{
-    margin: 100px 0;
-}
-.image-section img{
-    border-radius: 22px;
-}
-.image1{
-    flex-direction: column;
-}
-.ana{
-    margin-top: 20px;
-}
-.zabo{
-    width: 750px;
-    height: 420px;
-    margin-left: 25px;
-} */
-
-/* mine section3 end */
-
-
+/* Challenge part end */
 
 
 /* Outside Section CSS */
@@ -359,7 +330,7 @@ footer{
         margin-top: 0;
     }
 
-/* chatgpt section3 start */
+/* Challenge part start */
 
   .image-section {
     display: flex;
@@ -380,34 +351,7 @@ footer{
     height: 172px;
   }
 
-/* chatgpt section3 end */    
-
-/* mine section3 start */
-
-
-    /* .image-section{
-        display: grid;
-    }
-    .image1{
-        display: flex;
-        align-items: center;      
-    }
-    .image2{
-        display: flex;
-        justify-content: center;  
-    }
-    .bloom, .ana{
-        width: 360px;
-        height: 172px;
-    }
-    .zabo{
-        width: 360px;
-        height: 172px;
-        margin-top: 20px;
-        margin-right: 25px;
-    } */
-
-    /* mine section3 end */
+/* Challenge part end */    
 
     .outside{
         height: 275px;
