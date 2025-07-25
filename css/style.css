@@ -123,20 +123,14 @@ main{
 /* Challenge part start */
 
 .image-section {
-  display: flex;
   gap: 20px;
   justify-content: center;
   align-items: stretch;
 }
 
 .left-column {
-  display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.right-column {
-  display: flex;
 }
 
 .section3{
@@ -157,7 +151,6 @@ main{
   border-radius: 20px;
 }
 
-/* Zabo should match total height of left column */
 .zabo-container {
   height: calc(172px * 2 + 20px); /* 2 images + gap */
   width: 750px;
@@ -188,7 +181,6 @@ main{
   display: inline-block;
   margin-top: 10px;
   padding: 6px 12px;
-  color: white;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -316,7 +308,7 @@ footer{
     }
     .section2-about{
         margin-top: -50px;
-        margin-left: 50px;
+        margin-left: 13px;
     }
     .store-img{
         width: 400px;
