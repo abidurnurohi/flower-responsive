@@ -245,7 +245,7 @@ footer{
     display: grid;
 }
 .social{
-    margin-left: 10px;
+    margin-right: 24px;
 }
 .footer-tags{
     margin-bottom: 32px;
@@ -375,6 +375,7 @@ footer{
    /* Footer */
    footer{
     flex-direction: column;
+    margin: 50px 10px 50px 20px;
    }
    .part2, .part3, .part4{
     margin-top: -100px;
